@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mathOnFingers.MainPage">
+    <ContentPage.Content>
+        <StackLayout Padding="5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label x:Name="gameName" Text="Считай быстрее!" FontSize="46" FontAttributes="Bold"
+                   TextColor="DarkSlateGray" VerticalOptions="Center"/>
+            <Button Clicked="startGameButton" Text="Начать"/>
+            <Button Clicked="startSettingsButton" Text="Настройки"/>
+            <Button Clicked="exitButton" Text="Выйти"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
